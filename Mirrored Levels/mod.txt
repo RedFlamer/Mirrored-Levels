@@ -1,0 +1,8 @@
+{
+	"name": "Mirrored Levels",
+	"description": "Mirrors image output",
+	"author": "RedFlame",
+	"contact": "",
+	"version": "1",
+	"priority": -10
+}
