@@ -1,13 +1,15 @@
 <?xml version="1.0"?>
 <mod name="Mirrored Levels" global_key="mirroredlevels">
 	<wren>
-        <init file="main"/>
-    </wren>
+		<init file="main"/>
+	</wren>
 
 	<hooks script_path="lua/">
 		<post hook_id="core/lib/managers/viewport/coreviewportmanager" :script_path="coreviewportmanager.lua"/>
 		<post hook_id="core/lib/managers/coreguidatamanager" :script_path="coreguidatamanager.lua"/>
 		<post hook_id="core/lib/system/corepatchengine" :script_path="corepatchengine.lua"/>
+		<post hook_id="core/lib/units/coreeditablegui" :script_path="coreeditablegui.lua"/>
+		<post hook_id="lib/managers/hud/hudaccesscamera" :script_path="hudaccesscamera.lua"/>
 		<post hook_id="lib/units/cameras/fpcameraplayerbase" :script_path="fpcameraplayerbase.lua"/>
 	</hooks>
 </mod>
