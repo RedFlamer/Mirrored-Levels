@@ -10,6 +10,8 @@
 		<post hook_id="core/lib/system/corepatchengine" :script_path="corepatchengine.lua"/>
 		<post hook_id="core/lib/units/coreeditablegui" :script_path="coreeditablegui.lua"/>
 		<post hook_id="lib/managers/hud/hudaccesscamera" :script_path="hudaccesscamera.lua"/>
+		<post hook_id="lib/managers/hud/hudhitdirection" :script_path="hudhitdirection.lua"/>
+		<post hook_id="lib/units/beings/player/playerdamage" :script_path="playerdamage.lua"/>
 		<post hook_id="lib/units/cameras/fpcameraplayerbase" :script_path="fpcameraplayerbase.lua"/>
 	</hooks>
 </mod>

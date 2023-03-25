@@ -1,6 +1,6 @@
 function CoreEditableGui:add_workspace(gui_object)
 	local ws = self._gui:create_object_workspace(0, 0, gui_object, Vector3(0, 0, 0))
-	ws:mirror_x(false) -- fuck off
+	ws:mirror_x(false) -- HACK, fuck off
 	local gui = ws:panel():gui(Idstring("core/guis/core_editable_gui"))
 	local panel = gui:panel()
 
